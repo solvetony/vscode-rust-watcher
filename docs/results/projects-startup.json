@@ -1,0 +1,46 @@
+{
+  "measuredAt": "2026-11-13T12:32:24.150Z",
+  "requestedRoot": "/workspaces",
+  "effectiveRoots": [
+    "/workspaces/mounted/projects"
+  ],
+  "readOnly": true,
+  "node": "v24.22.3",
+  "startup": {
+    "wallMs": 7726.224116,
+    "cpuMicros": {
+      "user": 2914760,
+      "system": 1373192
+    },
+    "rss": 282599424,
+    "activeWatches": 22564,
+    "overflows": 0,
+    "peakSubscriptionWork": 21,
+    "pendingWork": 0,
+    "pruned": 364,
+    "queuedEvents": 0,
+    "rescans": 0,
+    "subscriptions": 1,
+    "trackedEntries": 392881,
+    "visitedDirectories": 22563
+  },
+  "idle": {
+    "wallMs": 1500.1210069999997,
+    "cpuMicros": {
+      "user": 16797,
+      "system": 1880
+    },
+    "rss": 281251840,
+    "activeWatches": 22564,
+    "overflows": 0,
+    "peakSubscriptionWork": 21,
+    "pendingWork": 0,
+    "pruned": 364,
+    "queuedEvents": 0,
+    "rescans": 0,
+    "subscriptions": 1,
+    "trackedEntries": 392881,
+    "visitedDirectories": 22563,
+    "oneCorePercent": 1.2450328948696605
+  }
+}

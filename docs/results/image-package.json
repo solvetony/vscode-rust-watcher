@@ -1,0 +1,10 @@
+{
+  "archive": "vscode-rust-watcher-image.tar.gz",
+  "sha256": "187d65d1d972deab307625d1db8811a39c7eb4463afcb26d135463f5ac7ef456",
+  "bytes": 1101665,
+  "platform": "linux-x64-glibc",
+  "glibc": "2.41",
+  "testedSourceFreeInstall": true,
+  "testedPreloadBeforeFirstESMImport": true,
+  "dockerBuildRun": false
+}

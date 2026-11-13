@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "package": "@parcel/watcher",
+  "version": "2.5.6",
+  "main": "index.js",
+  "entrySha256": "7028a46ab84bc5b0effeb7b6781b1f1375f1762c18de089b74a3d9f8cc742224",
+  "wrapperSha256": "aff6fa51c1a1d8bd792a0f082b98200bac568def3e5c1442ada78c915e924406",
+  "packageSha256": "287b0a3346201d109888d06361d94c1284e8aba7251459a3edcbb3c503adb7ba",
+  "bundleSha256": "6fc7003a7d3bdf8922c9aac2626ae737e66e67a37fba25a8440a11c6ddccdf68",
+  "napiMinimum": 8,
+  "import": "default-esm",
+  "backend": "inotify"
+}

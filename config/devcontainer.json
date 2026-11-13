@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "mode": "restricted",
+    "allowedRoots": ["/workspaces/mounted/projects"]
+  },
+  "globalIgnore": [
+    "**/.codex/**", "**/node_modules/**", "**/.git/objects/**",
+    "**/.git/subtree-cache/**", "**/.next/**", "**/dist/**", "**/build/**", "**/target/**",
+    "/workspaces/mounted/projects/specs/log-widgets.backup-*{,/**}",
+    "/workspaces/mounted/projects/specs/log-widgets/{loghub,zenodo,secrepo}/**",
+    "/workspaces/mounted/projects/btcwid/specs/log-widgets/{loghub,zenodo,secrepo}/**"
+  ],
+  "debounceMs": 40,
+  "maxBatchSize": 4096,
+  "maxQueuedEvents": 65536,
+  "maxTrackedEntries": 3000000,
+  "logLevel": "info"
+}

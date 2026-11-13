@@ -1,0 +1,23 @@
+TAP version 13
+# Subtest: bounded userspace queue and slow callbacks converge to the final state
+ok 1 - bounded userspace queue and slow callbacks converge to the final state
+  ---
+  duration_ms: 254.692943
+  type: 'test'
+  ...
+# {"repeatedSubscriptionMemory":[{"cycle":0,"rss":79237120},{"cycle":10,"rss":80023552},{"cycle":20,"rss":79364096},{"cycle":30,"rss":79384576},{"cycle":40,"rss":79437824},{"cycle":50,"rss":79360000},{"cycle":60,"rss":79835136},{"cycle":70,"rss":79527936},{"cycle":80,"rss":79659008},{"cycle":90,"rss":79892480}]}
+# Subtest: opt-in repeated subscription memory and large-fixture soak
+ok 2 - opt-in repeated subscription memory and large-fixture soak
+  ---
+  duration_ms: 3882.298586
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4189.771172

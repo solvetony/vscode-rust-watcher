@@ -1,0 +1,144 @@
+{
+  "measuredAt": "2026-11-13T10:47:29.402Z",
+  "generatedFixture": true,
+  "sameServerNode": "/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/node",
+  "warmupMs": 300,
+  "results": {
+    "stock": {
+      "node": "v24.22.1",
+      "root": "/tmp/rust-watcher-bench-emHV2M",
+      "scope": "compatible",
+      "ignore": [
+        "**/.codex/**",
+        "**/node_modules/**",
+        "**/.git/objects/**",
+        "**/.git/subtree-cache/**",
+        "**/.next/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/target/**"
+      ],
+      "startup": {
+        "wallMs": 11.572940999999997,
+        "cpuMicros": {
+          "user": 7545,
+          "system": 5260
+        },
+        "rss": 50827264,
+        "threads": 13,
+        "processes": 1,
+        "activeWatches": 201
+      },
+      "idle": {
+        "wallMs": 1501.514795,
+        "cpuMicros": {
+          "user": 80,
+          "system": 141
+        },
+        "rss": 50958336,
+        "threads": 13,
+        "processes": 1,
+        "activeWatches": 201,
+        "oneCorePercent": 0.014718469690470148
+      },
+      "churn": {
+        "wallMs": 382.57139499999994,
+        "cpuMicros": {
+          "user": 17498,
+          "system": 11272
+        },
+        "rss": 51613696,
+        "threads": 13,
+        "processes": 1,
+        "activeWatches": 201,
+        "eventCount": 100
+      },
+      "counters": {
+        "queuedEvents": null,
+        "rescans": null
+      },
+      "latencyMs": {
+        "samples": 100,
+        "p50": 206.372611,
+        "p95": 352.9811129999998
+      },
+      "afterUnsubscribe": {
+        "rss": 51744768,
+        "threads": 11,
+        "processes": 1,
+        "activeWatches": 0
+      }
+    },
+    "rust": {
+      "node": "v24.22.1",
+      "root": "/tmp/rust-watcher-bench-emHV2M",
+      "scope": "compatible",
+      "ignore": [
+        "**/.codex/**",
+        "**/node_modules/**",
+        "**/.git/objects/**",
+        "**/.git/subtree-cache/**",
+        "**/.next/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/target/**"
+      ],
+      "startup": {
+        "wallMs": 8.489820000000002,
+        "cpuMicros": {
+          "user": 5006,
+          "system": 4621
+        },
+        "rss": 57118720,
+        "threads": 12,
+        "processes": 1,
+        "activeWatches": 202
+      },
+      "idle": {
+        "wallMs": 1501.7285630000001,
+        "cpuMicros": {
+          "user": 143,
+          "system": 9
+        },
+        "rss": 57118720,
+        "threads": 12,
+        "processes": 1,
+        "activeWatches": 202,
+        "oneCorePercent": 0.010121669371217785
+      },
+      "churn": {
+        "wallMs": 372.55479200000013,
+        "cpuMicros": {
+          "user": 11948,
+          "system": 7511
+        },
+        "rss": 57380864,
+        "threads": 12,
+        "processes": 1,
+        "activeWatches": 202,
+        "eventCount": 100
+      },
+      "counters": {
+        "activeWatches": 202,
+        "overflows": 0,
+        "pruned": 0,
+        "queuedEvents": 0,
+        "rescans": 0,
+        "subscriptions": 1,
+        "visitedDirectories": 201
+      },
+      "latencyMs": {
+        "samples": 100,
+        "p50": 22.15711299999998,
+        "p95": 41.35717599999998
+      },
+      "afterUnsubscribe": {
+        "rss": 57511936,
+        "threads": 11,
+        "processes": 1,
+        "activeWatches": 0
+      }
+    }
+  },
+  "caveat": "A small-fixture measurement is not evidence of a large-project fix. Stock queue/rescan counters are unavailable."
+}

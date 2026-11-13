@@ -1,0 +1,3 @@
+ADD --chown=vscode:vscode vscode-rust-watcher-image.tar.gz /opt/vscode-rust-watcher/
+RUN chmod -R a+rX /opt/vscode-rust-watcher
+ENV NODE_OPTIONS="--require=/opt/vscode-rust-watcher/integrations/devcontainer/preload.cjs"

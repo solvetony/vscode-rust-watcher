@@ -1,0 +1,38 @@
+{
+  "name": "vscode-rust-watcher",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "main": "lib/adapter.cjs",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "package": "node bin/watcherctl.cjs package --output dist/vscode-rust-watcher-image.tar.gz",
+    "lint": "standard && cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings",
+    "test": "cargo test --locked && node --test --test-concurrency=1 test/*.test.cjs",
+    "test:stress": "RUST_WATCHER_STRESS=1 node --test test/stress.test.cjs",
+    "bench": "node scripts/bench.cjs"
+  },
+  "dependencies": {
+    "is-glob": "4.0.3",
+    "jsonc-parser": "3.3.1",
+    "picomatch": "4.0.7"
+  },
+  "devDependencies": {
+    "node": "24.22.3",
+    "standard": "17.1.2"
+  },
+  "standard": {
+    "env": [
+      "node"
+    ],
+    "ignore": [
+      "docs/**",
+      "target/**",
+      "dist/**"
+    ]
+  }
+}
